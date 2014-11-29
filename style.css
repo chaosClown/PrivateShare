@@ -1,0 +1,18 @@
+/*sprite sheet*/
+.facebook, .twitter, .google {
+	background: url("social.png") no-repeat transparent;
+	border: 0 none;
+	height: 50px;
+	width: 50px;
+	pointer:cursor;
+	float:left;
+}
+.facebook {
+	background-position: 0, 0;
+}
+.twitter {
+	background-position: -73px, 0;
+}
+.google {
+	background-position: -148px, 0;
+}

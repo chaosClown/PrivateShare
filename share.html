@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link type="text/css" rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	
+		<!-- facebook -->
+		<form action="https://www.facebook.com/dialog/feed" target="_blank" method="POST">
+			<input type="hidden" name="display" value="popup"/>
+			<input type="hidden" name="app_id" value="408981675933107"/>
+			<input type="hidden" name="redirect_uri" value="http://www.returnurlassigntoyourapp.com"/>
+			<input type="hidden" name="caption" value="if you dont like caption empty value"/><!-- use value=" " for empty caption -->
+			<input type="hidden" name="description" value="some description text"/>
+			<input type="hidden" name="link" value="http://theurliwanttoshare.com"/>
+			<input type="hidden" name="name" value="the name "/>
+			<input type="hidden" name="picture" value="https://avatars2.githubusercontent.com/u/2102857?v=3&s=40"/>
+			<input type="submit" class="facebook" value=""/>
+		</form>
+		
+		<!-- twitter -->
+		<form action="https://twitter.com/intent/tweet" target="_blank" method="POST">
+			<input type="hidden" name="via" value="sharedVia"/>
+			<input type="hidden" name="url" value="http://theurliwanttoshare.com"/>
+			<input type="hidden" name="text" value="some fancy text"/>
+			<input type="submit" class="twitter" value=""/>
+		</form>
+	
+		<!-- google+ -->
+		<form action="https://plus.google.com/share" target="_blank" method="GET">
+			<input type="hidden" name="url" value="http://theurlwheremicrodatashemasareused.com"/>
+			<input type="submit" class="google" value=""/>
+		</form>
+		
+	</body>
+</html>
